@@ -1,0 +1,32 @@
+
+.navbar {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .navBrand {
+        font-size: 30px;
+        font-weight: 700;
+        color: #FFFFFF;
+    }
+
+    .navItems {
+        button {
+            margin: 15px 20px;
+            background-color: transparent;
+            border: none;
+            font-size: 20px;
+            font-weight: 500;
+            color: #FFFFFF;
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        justify-content: center;
+
+        .navItems {
+            display: none;
+        }
+    }
+}
