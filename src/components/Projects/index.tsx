@@ -22,11 +22,11 @@ const Projects: React.FC = (): JSX.Element => {
 
   const responsive = {
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
+      breakpoint: { max: 3000, min: 1280 },
       items: 3,
     },
     tablet: {
-      breakpoint: { max: 1024, min: 768 },
+      breakpoint: { max: 1280, min: 768 },
       items: 2,
     },
     mobile: {
