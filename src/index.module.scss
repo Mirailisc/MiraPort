@@ -3,6 +3,8 @@
 .App {
     background-color: #151515;
     font-family: 'Montserrat', sans-serif;
+
+    user-select: none;
 }
 
 body::-webkit-scrollbar {

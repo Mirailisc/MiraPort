@@ -13,12 +13,12 @@ const About: React.FC = (): JSX.Element => {
           <div className={styles.text}>
             <h3 data-aos="fade-down">PHUBORDIN POOLNAI</h3>
             <p data-aos="fade-up">
-              I am a 16 years old junior high school student and also working as an intern Web Developer at Datability.
-              My main programming languages are Python, JavaScript, TypeScript, and SQL, also I'm still learning about
-              GraphQL Arduino and Docker. I have some working experiences from my intern company and my school project
-              but since I am still a student, I don’t have much time to learn.
+              I am a 16 years old junior high school student, working as an Intern Web Developer at Datability.
+              I started my journey by watching technology grow with the world. <span> ( actually, by playing "Minecraft" lol ) </span>
+              I started learning to code by learning Python, making a task management
+              website for myself and my friends.
             </p>
-            <p data-aos="fade-up">At last, My hobbies are coding, sleeping, watching an Anime</p>
+            <p data-aos="fade-up">And, I love to do something fun and challenge for improve myself and entertain others</p>
             <div className={styles.fact} data-aos="fade-up">
               <h4>FUN FACT</h4>
               <p>I love Murasaki Shion and Nanashi Mumei</p>
