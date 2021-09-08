@@ -4,3 +4,7 @@
     background-color: #151515;
     font-family: 'Montserrat', sans-serif;
 }
+
+body::-webkit-scrollbar {
+    display: none;
+}

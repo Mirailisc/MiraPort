@@ -10,7 +10,7 @@ const Contact: React.FC = (): JSX.Element => {
         <h1 className={styles.header}>CONTACT ME</h1>
         <div className={styles.contact}>
           {social.map((items, index) => (
-            <a href={items.url} key={index + 1} target="_blank" rel="noreferrer">
+            <a href={items.url} key={index + 1} target="_blank" rel="noreferrer" data-aos="fade-down">
               <div className={styles.card}>
                 <img src={items.icon} alt="icon" />
                 <h3>{items.name}</h3>
@@ -19,7 +19,7 @@ const Contact: React.FC = (): JSX.Element => {
           ))}
         </div>
       </div>
-      <p className={styles.TelAndEmail}>Gmail: mirailisclm@gmail.com<br/>Tel: (+66) 96 712 0048</p>
+      <p className={styles.TelAndEmail} data-aos="fade-right">Gmail: mirailisclm@gmail.com<br/>Tel: (+66) 96 712 0048</p>
     </>
   )
 }

@@ -42,9 +42,9 @@ const Projects: React.FC = (): JSX.Element => {
         <div className={styles.content}>
           <Carousel arrows={false} responsive={responsive} showDots customDot={<CustomDot />}>
             {projectCards.map((items) => (
-              <div className={styles.card} key={items.key}>
+              <div className={styles.card} key={items.key} data-aos="fade-up">
                 <a href={items.url}>
-                  <div className={styles.cardContent}>
+                  <div className={styles.cardContent} style={{ backgroundImage:`url(${items.image})` }}>
                     <div className={styles.body}>
                       <h3>{items.name}</h3>
                       <p>{items.detail}</p>

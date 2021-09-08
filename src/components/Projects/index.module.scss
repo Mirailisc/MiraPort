@@ -25,12 +25,13 @@
                     margin-bottom: 2rem;
                     border-radius: 20px;
                     color: #FFFFFF;
-                    background: #1E1E1E;
+                    transition: 300ms;
+                    background-size: cover;
+                    background-position: center;
                     transition: 300ms;
 
                     &:hover {
-                        border-top: 5px solid #FFFFFF;
-                        background: #363636;
+                        border-bottom: 10px solid #39A2DB;
                     }
                 }
             }
