@@ -11,6 +11,10 @@
         color: #FFFFFF;
     }
 
+    .toggler {
+        display: none;
+    }
+
     .navItems {
         button {
             margin: 15px 20px;
@@ -19,14 +23,55 @@
             font-size: 20px;
             font-weight: 500;
             color: #FFFFFF;
+            cursor: pointer;
+            transition: 300ms;
+
+            &:hover {
+                color: #39A2DB;
+            }
         }
     }
 
     @media only screen and (max-width: 800px) {
-        justify-content: center;
+        justify-content: space-between;
+        padding: 10px 0;
+
+        .navBrand {
+            padding-left: 10px;
+        }
 
         .navItems {
             display: none;
         }
+
+        .toggler {
+            display: block;
+            background: transparent;
+            border: none;
+            
+            img {
+                width: 50%;
+            }
+        }
+    }
+}
+
+.navLink {
+    display: none;
+}
+
+.navLinkActive {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #1E1E1E;
+    padding: 10px 0;
+
+    button {
+        border: none;
+        background: transparent;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 18px;
     }
 }

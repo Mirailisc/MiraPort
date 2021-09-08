@@ -1,0 +1,114 @@
+.Project {
+    height: 40rem;
+
+    .header {
+        margin-top: -5rem;
+        font-size: 100px;
+        color: #232323;
+    }
+
+    .content {
+        .card {
+            margin: 0 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+            .cardContent {
+                width: 250px;
+                height: 250px;
+                text-align: center;
+                padding: 4rem;
+                margin-bottom: 2rem;
+                border-radius: 20px;
+                color: #FFFFFF;
+                background-color: #1E1E1E;
+
+                .cardHeader {
+                    font-size: 30px;
+                    position: absolute;
+                    opacity: 100%;
+                    left: 0;
+                    right: 0;
+                    transition: 300ms;
+                    text-transform: uppercase;
+                    letter-spacing: 5px;
+                }
+
+                .body {
+                    opacity: 0%;
+                    transition: 300ms;
+
+                    a {
+                        position: relative;
+                        top: 5rem;
+                        text-decoration: none;
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: #232323;
+                        background-color: #FFFFFF;
+                        padding: 10px;
+                        border-radius: 10px;
+                        transition: 300ms;
+    
+                        &:hover {
+                            background-color: #d4d4d4;
+                        }
+                    }
+                }
+
+                &:hover {
+                   .body {
+                        opacity: 100%;
+                   }
+
+                   .cardHeader {
+                        opacity: 0%;
+                   }
+                }
+            }
+        }
+
+        .dotGroup {
+            margin: 0 8px;
+            
+            .dotActive {
+                padding: 8px;
+                background-color: #39A2DB;
+                border: none;
+                border-radius: 100%;
+            }
+    
+            .dotInActive {
+                padding: 8px;
+                background-color: #FFFFFF;
+                border: none;
+                border-radius: 100%;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        .header {
+            font-size: 15vw;
+            margin-top: 0;
+        }
+
+        .content {
+            margin: 0px;
+
+            .card {
+                .cardContent {
+                    width: 200px;
+                    height: 200px;
+                    padding: 3rem;
+
+                    a {
+                        top: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}

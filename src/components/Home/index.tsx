@@ -3,10 +3,10 @@ import styles from './index.module.scss'
 
 import Navbar from '../Navbar'
 
-const Home: React.FC = (): JSX.Element => {
+const Home: React.FC = (): JSX.Element=> {
   return (
     <>
-      <div className={styles.Home}>
+      <div className={styles.Home} id="Home">
         <Navbar />
         <div className={styles.content}>
           <div className={styles.header}>

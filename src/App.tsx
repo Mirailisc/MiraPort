@@ -2,12 +2,19 @@ import React from 'react'
 import styles from './index.module.scss'
 
 import Home from './components/Home'
+import About from './components/About'
+import Projects from './components/Projects'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
-function App() {
+const App: React.FC = (): JSX.Element => {
   return (
     <div className={styles.App}>
-      <Home/>
-      <div className={styles.About}></div>
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   )
 }

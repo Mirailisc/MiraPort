@@ -1,0 +1,107 @@
+
+.About {
+    height: 58rem;
+
+    .Header {
+        text-align: right;
+        font-size: 100px;
+        color: #232323;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        margin: 0 40px;
+
+        .image {
+            margin-right: 40px;
+            width: 500px;
+            height: 500px;
+        }
+
+        .text {
+            h3 {
+                font-size: 32px;
+                color: #39A2DB;
+                font-weight: 700;
+            }
+    
+            p {
+                color: #FFFFFF;
+                font-size: 20px;
+            }
+
+            .fact {
+                text-align: right;
+                position: relative;
+                top: 40px;
+
+                h4 {
+                    font-size: 20px;
+                    color: #39A2DB;
+                }
+                
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 900px) {
+        .content {
+            flex-direction: column;
+            padding: 0 20px;
+
+            .image {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                height: 50%;
+            }
+            .text {
+                
+                p {
+                    font-size: 16px;
+                }
+
+                .fact {
+                    text-align: center;
+                    top: 0;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .Header {
+            font-size: 15vw;
+        }
+
+        .content {
+            text-align: center;
+
+            .image {
+                width: 75%;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 300px) {
+        .content {
+            text-align: center;
+
+            .text {
+                 
+                h3 {
+                    font-size: 20px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
