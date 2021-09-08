@@ -14,36 +14,23 @@
             flex-direction: row;
             justify-content: center;
             
-            .cardContent {
-                width: 250px;
-                height: 250px;
-                text-align: center;
-                padding: 4rem;
-                margin-bottom: 2rem;
-                border-radius: 20px;
-                color: #FFFFFF;
-                background: #1E1E1E;
+            a {
+                text-decoration: none;
 
-                .body {
-                    a {
-                        position: relative;
-                        top: 5rem;
-                        text-decoration: none;
-                        font-size: 20px;
-                        font-weight: 700;
-                        color: #232323;
-                        background-color: #FFFFFF;
-                        padding: 10px;
-                        border-radius: 10px;
-                        transition: 300ms;
-    
-                        &:hover {
-                            background-color: #d4d4d4;
-                        }
+                .cardContent {
+                    width: 250px;
+                    height: 250px;
+                    text-align: center;
+                    padding: 4rem;
+                    margin-bottom: 2rem;
+                    border-radius: 20px;
+                    color: #FFFFFF;
+                    background: #1E1E1E;
+                    transition: 300ms;
 
-                        @media only screen and (max-width: 768px) {
-                            top: 3rem;
-                        } 
+                    &:hover {
+                        border-top: 5px solid #FFFFFF;
+                        background: #363636;
                     }
                 }
             }

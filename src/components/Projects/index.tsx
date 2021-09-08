@@ -43,13 +43,14 @@ const Projects: React.FC = (): JSX.Element => {
           <Carousel arrows={false} responsive={responsive} showDots customDot={<CustomDot />}>
             {projectCards.map((items) => (
               <div className={styles.card} key={items.key}>
-                <div className={styles.cardContent}>
-                  <div className={styles.body}>
-                    <h3>{items.name}</h3>
-                    <p>{items.detail}</p>
-                    <a href={items.url}>Discover</a>
+                <a href={items.url}>
+                  <div className={styles.cardContent}>
+                    <div className={styles.body}>
+                      <h3>{items.name}</h3>
+                      <p>{items.detail}</p>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             ))}
           </Carousel>
