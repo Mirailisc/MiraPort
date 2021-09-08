@@ -22,23 +22,9 @@
                 margin-bottom: 2rem;
                 border-radius: 20px;
                 color: #FFFFFF;
-                background-color: #1E1E1E;
-
-                .cardHeader {
-                    font-size: 30px;
-                    position: absolute;
-                    opacity: 100%;
-                    left: 0;
-                    right: 0;
-                    transition: 300ms;
-                    text-transform: uppercase;
-                    letter-spacing: 5px;
-                }
+                background: #1E1E1E;
 
                 .body {
-                    opacity: 0%;
-                    transition: 300ms;
-
                     a {
                         position: relative;
                         top: 5rem;
@@ -54,17 +40,11 @@
                         &:hover {
                             background-color: #d4d4d4;
                         }
+
+                        @media only screen and (max-width: 768px) {
+                            top: 3rem;
+                        } 
                     }
-                }
-
-                &:hover {
-                   .body {
-                        opacity: 100%;
-                   }
-
-                   .cardHeader {
-                        opacity: 0%;
-                   }
                 }
             }
         }

@@ -44,7 +44,6 @@ const Projects: React.FC = (): JSX.Element => {
             {projectCards.map((items) => (
               <div className={styles.card} key={items.key}>
                 <div className={styles.cardContent}>
-                  <h3 className={styles.cardHeader}>{items.name}</h3>
                   <div className={styles.body}>
                     <h3>{items.name}</h3>
                     <p>{items.detail}</p>

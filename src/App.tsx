@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './index.module.scss'
 
 import Home from './components/Home'
@@ -8,6 +8,11 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 const App: React.FC = (): JSX.Element => {
+
+  useEffect(() => {
+    document.title = "MiraPort"
+  })
+
   return (
     <div className={styles.App}>
       <Home />
