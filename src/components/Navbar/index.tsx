@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import styles from './index.module.scss'
 import { Link } from 'react-scroll'
+import Logo from './logo.svg'
 
 import Toggler from './toggler.svg'
 
@@ -10,7 +11,7 @@ const Navbar = () => {
   return (
     <>
       <nav className={styles.navbar}>
-        <div className={styles.navBrand}>MiraPort</div>
+        <div className={styles.navBrand}><img src={Logo} alt="logo" height='40px' width='40px' />MiraPort</div>
         <button className={styles.toggler} onClick={() => setToggle(!toggle)}>
           <img src={Toggler} alt="toggler" />
         </button>

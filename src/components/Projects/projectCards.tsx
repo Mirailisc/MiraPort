@@ -24,4 +24,11 @@ export const projectCards = [
         url: 'https://github.com/Mirailisc/MiraSchool',
         image: ImageErr,
     },
+    {
+        name: 'MiraStudy',
+        key: 'card4',
+        detail: "A community website which is suitable for my high school community.",
+        url: 'https://mirastudy.vercel.app/',
+        image: ImageErr,
+    },
 ]

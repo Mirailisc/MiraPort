@@ -9,6 +9,10 @@
         font-size: 30px;
         font-weight: 700;
         color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
     }
 
     .toggler {
