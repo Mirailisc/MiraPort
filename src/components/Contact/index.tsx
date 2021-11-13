@@ -19,7 +19,7 @@ const Contact: React.FC = (): JSX.Element => {
           ))}
         </div>
       </div>
-      <p className={styles.TelAndEmail} data-aos="fade-right">Gmail: mirailisclm@gmail.com<br/>Tel: (+66) 96 712 0048</p>
+      <p className={styles.TelAndEmail} data-aos="fade-right">Gmail: mirailisclm@gmail.com</p>
     </>
   )
 }

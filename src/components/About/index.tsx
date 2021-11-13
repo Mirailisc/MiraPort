@@ -15,7 +15,7 @@ const About: React.FC = (): JSX.Element => {
             <p data-aos="fade-up">
               I am a 16 years old junior high school student, working as an Intern Web Developer at Datability. I
               started my journey by watching technology grow with the world.{' '}
-              <span> ( actually, by playing "Minecraft" lol ) </span>I started learning to code by learning Python,
+              <span> ( actually, by playing "Minecraft" lol ) </span> and I started learning to code by learning Python,
               making a task management website for myself and my friends.
             </p>
             <p data-aos="fade-up">
@@ -23,7 +23,7 @@ const About: React.FC = (): JSX.Element => {
             </p>
             <div className={styles.fact} data-aos="fade-up">
               <h4>FUN FACT</h4>
-              <p>I love Murasaki Shion and Nanashi Mumei</p>
+              <p>I am a Simp</p>
             </div>
           </div>
         </div>
